@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>SodaServlet</servlet-name>
+        <servlet-class>Inventory.Services.SodaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddSodasServlet</servlet-name>
+        <servlet-class>Inventory.Services.AddSodasServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SodaServlet</servlet-name>
+        <url-pattern>/SodaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddSodasServlet</servlet-name>
+        <url-pattern>/AddSodasServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>/pages/index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

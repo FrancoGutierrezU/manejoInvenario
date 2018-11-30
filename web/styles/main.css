@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-ago-2018, 15:41:33
+    Author     : Informatica
+*/
+
+
+.picture
+{
+    border-radius: 10px;
+    box-shadow: 7px 7px gray;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer{
+    margin-top: 30px;
+    background-color:black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    bottom: 0;
+    position:fixed;  
+}
+
+footer a {
+    color: aqua;
+}
+
+iframe{
+    margin-left: 30px;
+}
+
+body{
+    margin: 0;
+    background-image: url("/ResolucionPrueba2/img/eight_horns.png");
+}
+
+header, main {
+    margin: 10px;
+}
+
+main{
+    background-color: white;
+    
+}
+
+#imgLogo{
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    margin-right: 15px;
+    box-shadow: 5px 5px gray;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+form add {
+  padding: 1em;
+  background: #f9f9f9;
+  border: 1px solid #c1c1c1;
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  
+}
+form input add {
+  margin-bottom: 1rem;
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+form button add {
+  background: lightgrey;
+  padding: 0.7em;
+  border: 0;
+}
+form button:hover {
+  background: gold;
+}
+
+label add {
+  text-align: right;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+}
+
+input add {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+add input:focus {
+  outline: 3px solid gold;
+}
+
+@media (min-width: 400px) {
+  add form {
+    overflow: hidden;
+  }
+
+  add label {
+    float: left;
+    width: 200px;
+  }
+
+   add input {
+    float: left;
+    width: calc(100% - 200px);
+  }
+
+  add button {
+    float: right;
+    width: calc(100% - 200px);
+  }
+}
